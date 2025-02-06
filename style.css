@@ -231,21 +231,15 @@ nav {
  }
 
  .project-card {
-    position: relative;
+    display: block;
+    text-decoration: none;
+    color: inherit;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 15px;
     overflow: hidden;
     background: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    .project-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-     
-    .project-card:hover {
-        transform: translateY(-8px) scale(1.02);
-        box-shadow: 0 12px 20px rgba(99, 102, 241, 0.25);
-    }
 }
 
 .project-card:hover {
